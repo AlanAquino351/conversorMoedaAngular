@@ -1,0 +1,18 @@
+<div class="mae">
+  <div class="filho">
+
+    <select [(ngModel)]="moeda1" class="form-select" aria-label="Default select example">
+      <option disabled="true">Selecione a moeda atual</option>
+      <option *ngFor="let item of lista" [value]="item.high">{{item.name}}</option>
+    </select><br>
+
+    <input [(ngModel)]="valor" type="number" value=""><br><br>
+    <div class="botao">
+      <button (click)="fazerConversao()" class="btn">Converta</button><br><br>
+    </div>
+    <div class="result">
+    <b>Resultado:</b>
+    {{resultadoConvercao | currency}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+.mae {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("src/assets/img/fundo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mae .filho {
+  border-radius: 5%;
+  padding: 2rem;
+  background-color: rgb(0, 0, 0,0.7) !important;
+  color: white;
+  font-size: larger;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%)
+}
+
+.mae .filho .btn{
+  background-color: rgb(45, 87, 200);
+  color: white;
+}
+
+.mae .filho button{
+  padding: 0.8rem;
+  width: 10rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2), 0 6px 20px 0 rgba (0,0,0,0.19);
+}
+
+.mae .filho button:hover{
+  background-color: rgb(51, 97, 224);
+}
+
+.mae .filho .botao{
+  text-align: center;
+}
+
+.mae .filho .result{
+  margin-left: 15%;
+}
+
+.mae .filho select{
+  width: 300px;
+}
+
+.mae .filho input{
+  width: 300px;
+}
